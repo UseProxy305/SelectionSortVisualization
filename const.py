@@ -1,0 +1,16 @@
+rectangleColor=(0,0,133)
+backgroundColour=(178,102,255)
+perfectRectangleColor=(0,204,0)
+brightRectangleColor=tuple(i/2 for i in rectangleColor)
+selectedRectangleColor = (204,0,0)
+width=1000
+height=700
+quitWidth=80
+quitHeight=50
+buttomBars=650
+maksHeightBar=300
+quitStartWidth=width-quitWidth-quitHeight
+quitStartHeight=quitHeight
+quitEndWidth=width-quitHeight
+quitEndHeight=2*quitHeight
+barsStartHeight=buttomBars-maksHeightBar
