@@ -1,4 +1,3 @@
-from numpy import number
 import pygame
 import const #This file contains necessary constants for this program
 from Buttons import Button
