@@ -93,6 +93,7 @@ while True:
         if numberOfStep == len(highlightList): #When it is finished clear all necessary variables
             numberOfStep=0
             highlightList=[]
+            startCommand=False
     
     mouse =pygame.mouse.get_pos() #Get the position of mouse
     if quitButton.box.collidepoint(mouse) : #If mouse is on the Quit Button
